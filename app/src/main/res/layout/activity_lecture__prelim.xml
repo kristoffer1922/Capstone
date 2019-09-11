@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorfour"
+    tools:context=".Lecture_Prelim">
+
+
+    <Button
+        android:paddingLeft="15dp"
+        android:drawableLeft="@drawable/ic_arrow_back"
+        android:id="@+id/btnPrelimBack"
+        android:layout_margin="30dp"
+        android:background="@drawable/roundb"
+        android:text="Back"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:text="Preliminary Period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/prelimone"
+            android:text="Introduction"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundb"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Objective-Oriented Programming Concepts and Principle"
+            android:id="@+id/prelimtwo"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/roundb"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Java Technology"
+            android:id="@+id/prelimthree"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/roundb"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Java Programming Fundamentals"
+            android:id="@+id/prelimfour"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/roundb"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Class, Objectives, Data Types, and Operation"
+            android:id="@+id/prelimfive"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/roundb"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

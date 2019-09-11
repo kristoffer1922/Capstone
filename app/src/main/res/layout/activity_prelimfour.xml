@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".Prelimfour">
+    <Button
+        android:text="Back"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:textSize="15dp"
+        android:drawableLeft="@drawable/arrow"
+        android:backgroundTint="#A09DB0"
+        android:id="@+id/prelimfourback"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:textAlignment="center"
+        android:text="Java Programming Fundamentals "
+        android:textColor="#000"
+        android:textSize="25dp" />
+    <ScrollView
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#FFFF99"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Indentifiers"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:lines="14"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="
+All Java components require names.
+\n-         Names used for classes, variables, and methods are called identifiers.
+\nIn Java, there are several points to remember about identifiers. They are as follows:
+\n•         All identifiers should begin with a letter (A to Z or a to z), currency character ($) or an underscore (_).
+\n•         After the first character, identifiers can have any combination of characters.
+\n•         A key word cannot be used as an identifier.
+\n•         Most importantly, identifiers are case sensitive.
+\n•         Examples of legal identifiers: age, $salary, _value, __1_value.
+\n•         Examples of illegal identifiers: 123abc, -salary.
+" />
+
+            <TextView
+                android:background="#FFFF99"
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Keywords"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:lines="18"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="
+The following list shows the reserved words in Java. These reserved words may not be used as constant or variable or any other identifier names.
+\n abstract assert boolean break
+\n byte case catch char
+\n 10
+\n Java class const continue default
+\n do double else enum
+\n extends final finally float
+\n for goto if implements
+\n import instanceof int interface
+\n long native new package
+\n private protected public return
+\n short static strictfp super
+\n switch synchronized this throw
+\n throws transient try void
+\n volatile while
+" />
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Declaring  "
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="These rules are essential when declaring classes, import statements and package statements in a source file.
+ " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:lines="23"
+                android:paddingLeft="20dp"
+                android:text="
+\n• There can be only one public class per source file.
+\n• A source file can have multiple non-public classes.
+\n• The public class name should be the name of the source file as well which should be appended by .java at the end. For example: the class name is public class Employee{} then the source file should be as Employee.java.
+\n• If the class is defined inside a package, then the package statement should be the first statement in the source file.
+\n• If import statements are present, then they must be written between the package statement and the class declaration. If there are no package statements, then the import statement should be the first line in the source file.
+\n• Import and package statements will imply to all the classes present in the source file. It is not possible to declare different import and/or package statements to different classes in the source file.
+\nClasses have several access levels and there are different types of classes; abstract classes, final classes, etc. We will be explaining about all these in the access modifiers chapter.
+\n Apart from the above mentioned types of classes, Java also has some special classes called Inner classes and Anonymous classes. "
+                />
+
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Statement and Blocks "
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Statement
+" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="Statements are roughly equivalent to sentences in natural languages. A statement forms a complete unit of execution. The following types of expressions can be made into a statement by terminating the expression with a semicolon (;).
+" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:lines="25"
+                android:text="Assignment expressions
+\nAny use of ++ or --
+\nMethod invocations
+\nObject creation expressions
+\nSuch statements are called expression statements. Here are some examples of expression statements.
+
+\n// assignment statement
+\naValue = 8933.234;
+\n// increment statement
+\naValue++;
+\n// method invocation statement
+\nSystem.out.println('Hello World!');
+\n// object creation statement
+\nBicycle myBike = new Bicycle();
+\nIn addition to expression statements, there are two other kinds of statements: declaration statements and control flow statements. A declaration statement declares a variable. You've seen many examples of declaration statements already:
+\n
+\n // declaration statement
+\n double aValue = 8933.234;
+\nFinally, control flow statements regulate the order in which statements get executed. You'll learn about control flow statements in the next section, Control Flow Statements
+            " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Blocks
+" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:lines="25"
+                android:text="A block is a group of zero or more statements between balanced braces and can be used anywhere a single statement is allowed. The following example, BlockDemo, illustrates the use of blocks:
+\n
+\nclass BlockDemo {
+\n    public static void main(String[] args) {
+\n          boolean condition = true;
+\n          if (condition) { // begin block 1
+\n               System.out.println('Condition is true.');
+\n          } // end block one
+\n          else { // begin block 2
+\n               System.out.println('Condition is false.');
+\n          } // end block 2
+\n     }
+\n}
+" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

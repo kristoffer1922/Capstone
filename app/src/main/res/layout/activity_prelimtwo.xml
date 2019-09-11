@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".prelimtwo">
+    <Button
+        android:text="Back"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:textSize="15dp"
+        android:drawableLeft="@drawable/arrow"
+        android:backgroundTint="#A09DB0"
+        android:id="@+id/prelimtwoback"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:text="Object-Oriented Programming Concepts and Principles"
+        android:textColor="#000"
+        android:textSize="25dp" />
+    <ScrollView
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#FFFF99"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abstraction"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="-        Abstraction An essential element of object-oriented programming is abstraction. Humans manage complexity through abstraction." />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="-         This abstraction allows people to use a car to drive to the grocery store without being overwhelmed by the complexity of the parts that form the car."/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="-         They can ignore the details of how the engine, transmission, and braking systems work. Instead, they are free to utilize the object as a whole. "/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="-         A powerful way to manage abstraction is through the use of hierarchical classifications.
+This allows you to layer the semantics of complex systems, breaking them into more manageable pieces.  "/>
+
+            <TextView
+                android:background="#FFFF99"
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Goals of OOP "
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+                 <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="The goal of Objective Oriented Programming (OOP) are to make complex software faster to develop and easier to maintain. OOP enables the easy reuse of code by applying simple and widely accepted rules (principles)." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="And there are Four Goals of OOP and those are; " />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/goals"/>
+
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Principle of Object-Oriented Programming "
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="In order for a programming language to be object-oriented, it has to enable working with classes and objects as well as the implementation and use of the fundamental object-oriented principles and concepts: inheritance, abstraction, encapsulation and polymorphism.
+                " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="Let’s summarize each of these fundamental principles of OOP:" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/principle"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

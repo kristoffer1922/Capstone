@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".PrelimThree">
+
+
+    <Button
+        android:text="Back"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:textSize="15dp"
+        android:drawableLeft="@drawable/arrow"
+        android:backgroundTint="#A09DB0"
+        android:id="@+id/prelimthreeback"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:text="Java Technology "
+        android:textColor="#000"
+        android:textSize="25dp" />
+    <ScrollView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="1991" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="Sun Microsystems develops a language (based on C) for consumer electronic devices"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="1993 "/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="WWW explodes in popularity "/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="1995 "/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="Sun formally announces Java for web use"/>
+
+            <TextView
+                android:background="#FFFF99"
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java as a Platform"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:lines="6"
+                android:text="-     Java (with a capital J) is a platform for application development.
+\n-       A platform is a loosely defined computer industry buzzword that typically means some combination of hardware and system software thatwill mostly run all the same software. \n
+" />
+
+
+
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phases of a Java Program"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="A simple Java Program normally undergoes following five key steps:" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="348dp"
+                android:src="@drawable/phases" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".PrelimFive">
+
+    <Button
+        android:text="Back"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:textSize="15dp"
+        android:drawableLeft="@drawable/arrow"
+        android:backgroundTint="#A09DB0"
+        android:id="@+id/prelimfiveback"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:text="Class, Objects, Data Types, and Operators "
+        android:textColor="#000"
+        android:textSize="25dp" />
+    <ScrollView
+        android:layout_marginTop="125dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Access Modifiers"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:lines="8"
+                android:text="Like other languages, it is possible to modify classes, methods, etc., by using modifiers.
+
+                \n
+                \nThere are two categories of modifiers:
+\n
+\n• Access Modifiers: default, public , protected, private
+\n• Non-access Modifiers: final, abstract, strictfp
+" />
+
+
+            <TextView
+                android:background="#FFFF99"
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class Instantiation"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:lines="10"
+                android:text="As mentioned previously, a class provides the blueprints for objects. So basically, an object is created from a class. In Java, the new keyword is used to create new objects.
+\n \nThere are three steps when creating an object from a class:
+\n• Declaration: A variable declaration with a variable name with an object type.
+\n• Instantiation: The 'new' keyword is used to create the object.
+\n• Initialization: The 'new' keyword is followed by a call to a constructor. This call initializes the new object.
+" />
+
+
+
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Literals"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="A literal is a source code representation of a fixed value. They are represented directly in the code without any computation.
+\n
+\nLiterals can be assigned to any primitive type variable.
+\nbyte, int, long, and short can be expressed in decimal(base 10), hexadecimal(base 16) or octal(base 8) number systems as well.
+\n
+\nPrefix 0 is used to indicate octal, and prefix 0x indicates hexadecimal when using these number systems for literals. For example −
+\nString literals in Java are specified like they are in most other languages by enclosing a sequence of characters between a pair of double quotes.
+\nString and char types of literals can contain any Unicode characters. " />
+
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Primitive data types"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:lines="26"
+                android:text="Primitive types are the most basic data types available within the Java language. There are 8: boolean, byte, char, short, int, long, float and double.
+                \nThese types serve as the building blocks of data manipulation in Java.
+                \nSuch types serve only one purpose — containing pure, simple values of a kind.
+                \nBecause these data types are defined into the Java type system by default, they come with a number of operations predefined. You can not define a new operation for such primitive types.
+                \nIn the Java type system, there are three further categories of primitives:
+\n
+\nNumeric primitives: short, int, long, float and double.
+\nThese primitive data types hold only numeric data. Operations associated with such data types are those of simple arithmetic (addition, subtraction, etc.) or of comparisons (is greater than, is equal to, etc.)
+\nTextual primitives: byte and char. These primitive data types hold characters (that can be Unicode alphabets or even numbers). Operations associated with such types are those of textual manipulation (comparing two words, joining characters to make words, etc.). However, byte and char can also support arithmetic operations.
+\nBoolean and null primitives: boolean and null.
+" />
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scope of Variables"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lines="10"
+                android:paddingLeft="20dp"
+                android:text="The scope of a variable defines the section of the code in which the variable is visible.
+                \nAs a general rule, variables that are defined within a block are not accessible outside that block.
+                \nThe lifetime of a variable refers to how long the variable exists before it is destroyed.
+                \nDestroying variables refers to deallocating the memory that was allotted to the variables when declaring it.
+                \nWe have written a few classes till now.
+
+"
+                android:textColor="#000" />
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operators "
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:lines="10"
+                android:text="Arithmetic Operators
+\nUnary Arithmetic Operators
+\nRelational Operators
+\nLogical Operators
+\nBitwise Operators
+\nAssignment Operators
+\nCompound Assignment Operators
+\nConditional Operator
+\ninstanceof Operator
+
+" />
+
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Constants "
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:lines="10"
+                android:text="A constant is a variable which cannot have its value changed after declaration. It uses the 'final' keyword.
+" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

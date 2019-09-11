@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".Prelimone">
+
+    <Button
+        android:text="Back"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:textSize="15dp"
+        android:drawableLeft="@drawable/arrow"
+        android:backgroundTint="#A09DB0"
+        android:id="@+id/prelimoneback"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+
+        android:text="Introduction"
+        android:textColor="#000"
+
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:background="#FFFF99"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T.I.P. Vision"
+                android:padding="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="3dp"
+                android:paddingLeft="20dp"
+                android:text="In the year 2020, T.I.P. envisions itself to be:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:paddingLeft="20dp"
+                android:text="1. a leading professional technological institution in the Philippines through" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="outcomes-based education, and" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="a culture of innovation and continuous improvement, and" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="2. an institution whose graduates contribute to the welfare of society." />
+            <TextView
+                android:background="#FFFF99"
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T.I.P. Mission"
+                android:padding="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="The Technological Institute of the Philippines (T.I.P.) is committed:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="1.to continue to empower the Filipino youth through technological education of the highest standard, employing outcomes-based education and state-of-the-art laboratories" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="2. to transform students into graduates with full competence in their fields of study and who also possess:"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="The Filipino values of honesty and integrity, service to others, the importance of family, frugality, resilience in the face of adversity, and the willingness to surmount difficulties in order to succeed and excel." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="The industry-desired values of positive work attitude, good communication skills, proficiency in computers and in the software that pertain to their fields of study, initiative, and the openness to keep on learning to reinvent themselves." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:text="The global citizen values of mindfulness, respect for cultural diversity, care for the environment and the desire to contribute to the general welfare of society." />
+            <TextView
+                android:background="#FFFF99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIP Graduate Attribute"
+                android:padding="10dp"
+                android:textSize="25dp"
+                android:typeface="sans"
+                android:fontFamily="italic"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:textColor="#000"/>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_gravity="center"
+             android:background="#000"
+             >
+
+             <LinearLayout
+
+                 android:layout_width="145dp"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="15dp"
+                     android:text="T.I.P. Graduate Attributes"
+                     android:textColor="#ffe505" />
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+                 <TextView
+                     android:textColor="#ffe505"
+                     android:layout_margin="15dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Institutional Intended Learning Outcomes (IILO)"
+                     />
+             </LinearLayout>
+
+
+         </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Professional Competence"
+                        android:textColor="#000" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="35dp"
+                        android:text="Critical Thinking and Problem Solving Skills"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:layout_marginTop="13dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Communication Skills"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Lifelong Learning"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_marginTop="45dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Social and Ethical Responsibility"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_marginTop="35dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Productivity"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Interpersonal Skills	"
+                        android:textColor="#000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Demonstrate understanding and mastery of the fundamental knowledge and skills required for effective professional practice in the field of specialization."
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exercise critical and creative thinking in providing solutions to discipline-related problems."
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Apply effective communication skills, both orally and in writing, using the English language."
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Utilize lifelong learning skills in pursuit of personal development and excellence in professional practice"
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hold personal values and beliefs as ethical professional consistent with Filipino family values, industry-desired values and global citizen values."
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contribute to nation-building and national development through application of new technology"
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Work effectively in multi-disciplinary and multicultural teams"
+                        />
+                </LinearLayout>
+
+               </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
